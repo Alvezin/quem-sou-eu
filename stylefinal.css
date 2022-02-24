@@ -170,8 +170,9 @@ footer p{
         font-size: 7px;
     }
     aside{
-        padding-top: 0%;
+        padding-top: 7%;
     }
+
     
 
 }
@@ -187,6 +188,7 @@ footer p{
     }
     .project{
         margin: auto;
+        height: 310px;
     }
     aside{
         padding-bottom: 30px;
