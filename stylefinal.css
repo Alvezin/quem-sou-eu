@@ -159,3 +159,13 @@ footer p{
         font-size: 8px;
     }
 }
+
+@media screen and (max-width:395px) {
+    html{
+        font-size: 7px;
+    }
+    .aside__lista li{
+        height: 40px;
+
+    }
+}
