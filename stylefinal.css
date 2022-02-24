@@ -36,6 +36,7 @@ h1{
     padding: 20px;
     font-family: monospace;
     font-size: 1.3rem;
+    text-align: justify;
 
 }
 
@@ -164,8 +165,22 @@ footer p{
     html{
         font-size: 7px;
     }
-    .aside__lista li{
-        height: 40px;
 
+}
+@media screen and (max-width:354px) {
+    body{
+        grid-template-areas: 
+    "titulo titulo"
+    "pre pre"
+    "projeto side"
+    "footer footer";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 130px 1fr 1fr 100px;
+    }
+    .project{
+        margin: auto;
+    }
+    aside{
+        padding-bottom: 30px;
     }
 }
