@@ -144,6 +144,7 @@ footer p{
         height: 33px;
 
     }
+    
 }
 @media screen and (max-width:560px) {
     html{
@@ -152,6 +153,9 @@ footer p{
     .aside__lista li{
         height: 40px;
 
+    }
+    .principal p{
+        margin-bottom: 0%
     }
 }
 
@@ -168,9 +172,7 @@ footer p{
     aside{
         padding-top: 0%;
     }
-    .principal p{
-        margin-bottom: 0%
-    }
+    
 
 }
 @media screen and (max-width:354px) {
