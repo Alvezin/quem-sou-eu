@@ -119,3 +119,43 @@ footer p{
     font-size: 2rem;
     font-weight: bolder;
 }
+@media screen and (max-width:780px) {
+    html{
+        font-size: 13px;
+    }
+    .aside__lista li{
+        height: 40px;
+
+    }
+}
+
+@media screen and (max-width:648px) {
+    html{
+        font-size: 11px;
+    }
+
+}
+@media screen and (max-width:559px) {
+    html{
+        font-size: 10px;
+    }
+    .aside__lista li{
+        height: 33px;
+
+    }
+}
+@media screen and (max-width:560px) {
+    html{
+        font-size: 9px;
+    }
+    .aside__lista li{
+        height: 40px;
+
+    }
+}
+
+@media screen and (max-width:458px) {
+    html{
+        font-size: 8px;
+    }
+}
