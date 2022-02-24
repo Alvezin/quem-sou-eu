@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "titulo titulo"
+    "pre side"
+    "projeto projeto"
+    "footer footer";
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 130px 1fr 1fr 100px;
+    background-color: #1E1E1E;
+}
+header{
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    align-items: center;
+    display: flex;
+    color: lightgreen;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.principal{
+    grid-area: pre;
+    
+}
+.principal p{
+    color: #F5A512;
+    font-weight: bold;
+    margin-bottom: 32px;
+    padding: 20px;
+    font-family: monospace;
+    font-size: 1.3rem;
+
+}
+
+aside{
+    padding-top: 20px;
+    grid-area: side;
+    color: #4CA7C6;
+    display: flex;
+    margin: auto;
+
+}
+aside h2{
+    display: flex;
+    font-size: 2.1rem;
+    justify-content: center;
+    color: lightgreen;
+}
+.aside__lista{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0%;
+}
+.aside__lista p{
+    font-size: 1.8rem;
+    color: #F5A512;
+}
+.aside__lista li a{
+    line-height: 50px;
+    color: #4CA7C6;
+    text-decoration: none;
+    font-size: 1.3rem;   
+}
+.aside__lista li a:hover{
+    color: lightgreen;
+    text-decoration: underline dotted;
+}
+aside div{
+    border: 3px solid lightgreen;
+    border-radius: 18px;
+    font-family: monospace;
+}
+.aside__lista li{
+    list-style: none;
+    font-weight: bold;
+}
+pre{
+    width: 100%;
+}
+footer{
+    grid-area: footer;
+}
+.green{
+    color: lightgreen;
+}
+.project{
+    grid-area: projeto;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.project p{
+    font-size: 1.2rem;
+    color: lightgreen;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer{
+    border: 3px solid #F5A512;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+footer p{
+    color: #4CA7C6;
+    display: flex;
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: bolder;
+}
