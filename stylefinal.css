@@ -83,6 +83,7 @@ aside div{
 .aside__lista li{
     list-style: none;
     font-weight: bold;
+    font-family: monospace;
 }
 pre{
     width: 100%;
