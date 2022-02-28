@@ -192,7 +192,7 @@ footer p{
     grid-template-columns: 100%;
     grid-template-rows: 130px 1fr 1fr 1fr 100px;}
     html{
-        font-size: 9px;
+        font-size: 11px;
     }
     
     }
@@ -203,41 +203,47 @@ footer p{
     .principal p{
         margin-bottom: 0%
     }
-}
+
 
 @media screen and (max-width:458px) {
     html{
-        font-size: 8px;
+        font-size: 11px;
     }
 }
 
 @media screen and (max-width:395px) {
+    h1{
+        font-size: 2.2rem;
+    }
     html{
-        font-size: 7px;
+        font-size: 11px;
     }
     aside{
-        padding-top: 7%;
+        padding-top: 1%;
+    }
+    .aside__lista li{
+        width: 98%;
     }
 
     
 
 }
-@media screen and (max-width:354px) {
-    body{
-        grid-template-areas: 
-    "titulo titulo"
-    "pre pre"
-    "projeto side"
-    "footer footer";
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 130px 1fr 1fr 100px;
+@media screen and (max-width:365px) {
+    h1{
+        font-size: 1.4rem;
     }
-    .project{
-        margin: auto;
-        height: 310px;
+    html{
+        font-size: 13px
+    }
+    .project .aside__lista li a{
+        font-size: 11px;
+        
     }
     aside{
         padding-bottom: 30px;
         padding-top: 0%;
+    }
+    footer p{
+        font-size: 1.5rem;
     }
 }
