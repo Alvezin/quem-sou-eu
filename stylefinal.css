@@ -182,8 +182,19 @@ footer p{
     
 }
 @media screen and (max-width:560px) {
+    body{
+        grid-template-areas: 
+    "titulo titulo"
+    "pre pre"
+    "side side"
+    "projeto projeto"
+    "footer footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 130px 1fr 1fr 1fr 100px;}
     html{
         font-size: 9px;
+    }
+    
     }
     .aside__lista li{
         height: 40px;
