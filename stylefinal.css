@@ -25,6 +25,7 @@ header{
 }
 
 h1{
+    font-size: 3rem;
     align-items: center;
     display: flex;
     color: lightgreen;
@@ -53,6 +54,8 @@ h1{
     text-indent: 30px;
 
 }
+
+
 .btn{
     width: 50px;
     display: fl
@@ -78,7 +81,9 @@ aside h2{
     text-align: center;
     padding: 0%;
 }
-
+.aside__lista span{
+    color: rgb(199, 72, 72);
+}
 .aside__lista li a{
     display: flex;
     align-items: center;
@@ -92,7 +97,7 @@ aside h2{
 }
 .aside__lista li:hover{
     text-decoration: underline dotted;
-    background-color: #6cc0dc;
+    background-color: #93c7aa;
     transition: .5s;
 }
 aside div{
